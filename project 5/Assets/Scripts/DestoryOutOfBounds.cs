@@ -14,5 +14,10 @@ public class DestoryOutOfBounds : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+        if(transform.position.y < lowerBound)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
