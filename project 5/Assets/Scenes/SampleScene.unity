@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 310d383a4aa99934cbf0aa029bbcd421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 15
+  moveSpeed: 17
   xRange: 8
   projectilePrefab: {fileID: 3112193793774745546, guid: 62f3342a261b8e9428d659253814bfb3, type: 3}
 --- !u!212 &166450962
@@ -216,7 +216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166450960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.19, z: 0}
+  m_LocalPosition: {x: 0, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -351,3 +351,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aae30086274483498bfec7ab6ce439b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 8529303166320813679, guid: b1dccbb4be23353419e2a6a3efc5a2b0, type: 3}
+  - {fileID: 200927405877542616, guid: c01f3db41141002449a36e21281d4585, type: 3}
+  - {fileID: 978128226347019339, guid: a86958e70b32a094f8d151a05036ddfa, type: 3}
+  spawnXRange: 8
+  spawnYRange: 10
