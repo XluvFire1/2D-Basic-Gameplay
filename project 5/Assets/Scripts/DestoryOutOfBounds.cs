@@ -17,6 +17,7 @@ public class DestoryOutOfBounds : MonoBehaviour
 
         if(transform.position.y < lowerBound)
         {
+            Debug.Log("Game Over, an enemy got by you.");
             Destroy(this.gameObject);
         }
     }
